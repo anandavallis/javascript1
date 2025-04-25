@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pattern</title>
+</head>
+<body>
+    <script>
+    let out = "";
+    for(let i = 1; i <= 10; i++){
+        for(let j = 0; j < i; j++){
+            out = out + "* ";
+        }
+        out = out + "\n";
+    }
+    console.log(out);
+
+
+    let num = '';
+    for(let i = 1; i <= 10; i++){
+        for(let j = 0; j < i; j++){
+
+            if(i%2==0){
+            num = num + '1 ';
+            }
+            else{
+                num = num + '0 ';
+            }
+        }
+        num = num + "\n";
+    }
+    console.log(num);
+
+</script>
+</body>
+</html>
