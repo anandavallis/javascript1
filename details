@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+</head>
+<body>
+    <script>
+        let name ="Anandavalli";
+        let age =22;
+        
+         let dob = "2002-04-30";
+        let height = 70.2;
+        let weight = 55;
+        let degree = "Bachelor's";
+        let gender = "Female";
+
+console.log("Name:", name);
+console.log("Date of birth:", dob);
+console.log("Height:", height, "cm");
+console.log("Weight:", weight, "kg");
+console.log("Degree:", degree);
+console.log("Gender:" ,gender);
+
+            
+        
+    </script>
+</body>
+</html>
